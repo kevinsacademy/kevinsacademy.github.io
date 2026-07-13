@@ -6,35 +6,67 @@
     <title>Kevin's Academy</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background-color: #f8f9fa;
             color: #333;
+        }
+        /* Navigation Bar */
+        nav {
+            background-color: #24292e;
+            padding: 15px 30px;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            height: 100vh;
         }
-        .container {
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        .logo {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: white;
+        }
+        /* Main Content */
+        .hero {
             text-align: center;
+            padding: 100px 20px;
             background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-bottom: 1px solid #e1e4e8;
         }
-        h1 {
+        .hero h1 {
+            font-size: 2.5rem;
             color: #24292e;
+            margin-bottom: 10px;
         }
-        p {
-            font-size: 1.1em;
+        .hero p {
+            font-size: 1.2rem;
+            color: #586069;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Kevin's Academy 🚀</h1>
-        <p>This site is officially under construction. Stay tuned!</p>
+
+    <nav>
+        <div class="logo">Kevin's Academy 🚀</div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to Kevin's Academy</h1>
+        <p>Your journey into learning and growth starts here. Stay tuned for upcoming content!</p>
     </div>
+
 </body>
 </html>
